@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c41aaf66c682e44862fd437cb338fe, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: Dialogue
+  dataArray:
+  - id: 1
+    bg: BG_mimicry
+    characterid: 10101
+    position: 0
+    dialogue: "\uC548\uB155\uD558\uC2ED\uB2C8\uAE4C. \uBBF8\uBBF8\uD06C\uB9AC \uC601\uC8FC\uC785\uB2C8\uB2E4."
+  - id: 2
+    bg: BG_alea
+    characterid: 10101
+    position: 1
+    dialogue: "\uBC18\uAC11\uC2B5\uB2C8\uB2E4"
+  - id: 3
+    bg: BG_agon
+    characterid: 10101
+    position: 2
+    dialogue: "\uC5B4\uC11C\uC624\uC138\uC694"
+  - id: 4
+    bg: BG_mimicry
+    characterid: 10101
+    position: 3
+    dialogue: "\uAE30\uB2E4\uB838\uC2B5\uB2C8\uB2E4"
+  - id: 5
+    bg: BG_alea
+    characterid: 10101
+    position: 4
+    dialogue: "\uC774\uC81C \uB9C8\uC9C0\uB9C9\uD14D\uC2A4\uD2B8\uC785\uB2C8\uB2E4"
